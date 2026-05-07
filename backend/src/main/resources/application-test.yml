@@ -1,9 +1,9 @@
 # =====================================================
-# ./gradlew test 시 동작할 DB설정(--spring.profiles.active=test 인 경우 동작하는 설정)
+# ./gradlew test 시 동작할 DB설정(--spring.profiles.active=test인 경우 동작하는 설정)
 # =====================================================
 spring:
   datasource:
-    url: jdbc:h2:mem:testdb;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT_FALSE
+    url: jdbc:h2:mem:testdb;MODE=MySQL
     username: sa
     password:
     driver-class-name: org.h2.Driver
@@ -11,6 +11,3 @@ spring:
     hibernate:
       ddl-auto: create-drop
     show-sql: true
-
-
-
