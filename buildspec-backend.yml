@@ -1,4 +1,3 @@
-
 version: 0.2
 
 phases:
@@ -7,7 +6,7 @@ phases:
       java: corretto17
   pre_build:
     commands:
-      - echo "=== 백엔드 빌드 시작: $(date) ==="
+      - echo "=== 백엔드 빌드 시작 ==="
       - java -version
   build:
     commands:
@@ -25,4 +24,3 @@ artifacts:
     - '**/*'
   base-directory: deploy-backend
   discard-paths: no
-
