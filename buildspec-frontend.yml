@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    NEXT_PUBLIC_API_URL: "http://Note-app-backend-prod.eba-6je5fyq2.ap-northeast-2.elasticbeanstalk.com/"
+    NEXT_PUBLIC_API_URL: "http://Note-app-backend-prod.eba-6je5fyq2.ap-northeast-2.elasticbeanstalk.com"
 
 phases:
   install:
